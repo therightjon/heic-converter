@@ -1,3 +1,4 @@
+
 'use client';
 
 import { useState, useCallback } from 'react';
@@ -173,9 +174,12 @@ const HEICConverter: FC = () => {
           </div>
         )}
         <Separator />
-        <div className="text-center text-sm text-muted-foreground">
-          <p>For technical assistance, please contact:</p>
-          <p className="font-medium text-foreground">Department of OBGYN - Jon Steen - jesteen@uabmc.edu</p>
+        <div className="text-center text-sm text-foreground">
+          <h2 className='text-2xl font-bold tracking-tight'>Department of Obstetrics and Gynecology</h2>
+          <p className='text-xl text-muted-foreground'>For technical assistance, please contact:</p>
+          <p className="font-medium text-foreground">
+            <a href="mailto:jesteen@uabmc.edu" className="underline">Jon Steen - jesteen@uabmc.edu</a>
+          </p>
         </div>
       </CardContent>
     </Card>
