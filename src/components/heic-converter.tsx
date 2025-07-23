@@ -9,6 +9,7 @@ import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@
 import { useToast } from '@/hooks/use-toast';
 import { cn } from '@/lib/utils';
 import { Button } from './ui/button';
+import { Separator } from './ui/separator';
 
 type ConversionStatus = 'converting' | 'complete' | 'error';
 
@@ -171,6 +172,11 @@ const HEICConverter: FC = () => {
             )}
           </div>
         )}
+        <Separator />
+        <div className="text-center text-sm text-muted-foreground">
+          <p>For technical assistance, please contact:</p>
+          <p className="font-medium text-foreground">Department of OBGYN - Jon Steen - jesteen@uabmc.edu</p>
+        </div>
       </CardContent>
     </Card>
   );
