@@ -177,8 +177,8 @@ const HEICConverter: FC = () => {
         <div className="text-center text-sm text-foreground">
           <h2 className='text-2xl font-bold tracking-tight'>Department of Obstetrics and Gynecology</h2>
           <p className='text-xl text-muted-foreground'>For technical assistance, please contact:</p>
-          <p className="font-medium text-foreground">
-            <a href="mailto:jesteen@uabmc.edu" className="underline">Jon Steen - jesteen@uabmc.edu</a>
+          <p className="font-medium text-foreground">Jon Steen -
+            <a href="mailto:jesteen@uabmc.edu" className="underline"> jesteen@uabmc.edu</a>
           </p>
         </div>
       </CardContent>
