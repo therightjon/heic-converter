@@ -2,7 +2,6 @@
 
 import { useState, useCallback } from 'react';
 import type { FC, DragEvent } from 'react';
-import heic2any from 'heic2any';
 import { saveAs } from 'file-saver';
 import { UploadCloud, File as FileIcon, CheckCircle2, XCircle, Loader } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
@@ -36,6 +35,7 @@ const HEICConverter: FC = () => {
     });
 
     try {
+      const heic2any = (await import('heic2any')).default;
       const conversionResult = await heic2any({
         blob: file,
         toType: "image/jpeg",
