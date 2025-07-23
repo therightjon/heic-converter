@@ -8,6 +8,15 @@ This project is a HEIC to JPEG Converter built with NextJS.
 - Conversion Status: Display the conversion status (e.g., 'Converting...', 'Complete', 'Error') for each file in a list.
 - Automatic Saving: Automatically save the converted JPEG files in the same folder as the original HEIC files.
 
+## Tech Stack
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- ShadCN UI
+- Genkit
+
 ## Getting Started:
 
 1. Clone the repository.
